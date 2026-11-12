@@ -1,0 +1,10 @@
+[
+  {"id": 1, "category": "Python", "question": "Which keyword is used to define a function in Python?", "options": ["func", "def", "function", "lambda"], "answer": 1, "explanation": "The def keyword starts a standard function definition."},
+  {"id": 2, "category": "Python", "question": "Which data type stores key-value pairs?", "options": ["list", "tuple", "dictionary", "set"], "answer": 2, "explanation": "A dictionary stores values associated with unique keys."},
+  {"id": 3, "category": "Python", "question": "What is the result of len([2, 4, 6])?", "options": ["2", "3", "4", "6"], "answer": 1, "explanation": "The list contains three elements."},
+  {"id": 4, "category": "Programming", "question": "Which structure repeats a block while a condition is true?", "options": ["if", "while loop", "class", "import"], "answer": 1, "explanation": "A while loop repeats as long as its condition remains true."},
+  {"id": 5, "category": "Python", "question": "Which symbol begins a single-line comment in Python?", "options": ["//", "#", "<!--", "/*"], "answer": 1, "explanation": "Python single-line comments begin with #."},
+  {"id": 6, "category": "Programming", "question": "Which collection is ordered and mutable in Python?", "options": ["tuple", "string", "list", "frozenset"], "answer": 2, "explanation": "Lists preserve order and can be modified after creation."},
+  {"id": 7, "category": "Python", "question": "Which function displays output in the console?", "options": ["show()", "echo()", "print()", "write()"], "answer": 2, "explanation": "print() writes text to standard output."},
+  {"id": 8, "category": "Programming", "question": "What does IDE commonly stand for?", "options": ["Integrated Development Environment", "Internal Data Engine", "Internet Design Extension", "Integrated Display Element"], "answer": 0, "explanation": "An IDE combines tools for writing, running, and debugging code."}
+]
