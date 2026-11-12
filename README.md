@@ -1,33 +1,47 @@
 # Python MCQ Website
 
-A Python-based website project for presenting multiple-choice questions and supporting an interactive quiz or assessment experience.
+A Python-based multiple-choice question (MCQ) website project intended to provide an interactive quiz and assessment experience.
 
-## Project overview
+## Overview
 
-The goal of this project is to provide a simple web-based interface for users to attempt MCQs.
+The website is designed around presenting objective questions in a web interface so users can attempt MCQs in an organized way.
 
 ## Technology
 
-- Python
+- **Programming language:** Python
 
-Additional frameworks, libraries and database details will be documented after verifying the implementation.
+Frameworks, database choices, and additional libraries are intentionally not listed until they can be confirmed from the actual source code.
 
-## Status
+## Core project areas
 
-Repository documentation has been initialized. The application source code, screenshots and verified run instructions still need to be added.
+- Displaying multiple-choice questions
+- Providing an interface for selecting answers
+- Organizing the quiz-taking experience
 
-## Planned repository contents
+These describe the project's purpose; exact implemented features should be confirmed against the application source before being presented as completed functionality.
 
-- Application source code
-- Question data or database setup, if applicable
-- Dependency list
-- Installation and run instructions
-- Screenshots and usage guide
+## Repository status
+
+This repository currently contains project documentation. The application source code, dependency list, screenshots, and verified run instructions have not yet been uploaded.
+
+## Suggested repository structure
+
+```text
+python-mcq-website/
+├── README.md
+├── requirements.txt
+├── app/
+├── static/
+├── templates/
+└── screenshots/
+```
+
+The structure above is a suggested organization, not a claim about the current files.
 
 ## Setup
 
-Verified setup instructions will be added with the source code.
+Installation and run commands will be added after the actual source code and dependencies are available.
 
 ## Maintainer
 
-[Shivansh Verma](https://github.com/shivanshpoop)
+**Shivansh Verma** · [GitHub](https://github.com/shivanshpoop) · [LinkedIn](https://www.linkedin.com/in/shivansh-verma-239888350/)
