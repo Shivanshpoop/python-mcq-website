@@ -1,47 +1,57 @@
-# Python MCQ Website
+# QuizLab — Python MCQ Website
 
-A Python-based multiple-choice question (MCQ) website project intended to provide an interactive quiz and assessment experience.
+A responsive multiple-choice quiz website powered by a small Python HTTP server. This repository contains a runnable reference implementation using **only Python's standard library**—no Flask, Django, database, or third-party packages are required.
 
-## Overview
+## Features
+- Responsive quiz interface
+- Questions loaded from a JSON file
+- Server-side answer evaluation and score calculation
+- Explanations shown after submission
+- Easy-to-edit question bank
+- No external dependencies
 
-The website is designed around presenting objective questions in a web interface so users can attempt MCQs in an organized way.
+## Run locally
+1. Install Python 3.9 or newer.
+2. Clone this repository.
+3. From the project folder, run:
 
-## Technology
+   ```bash
+   python app.py
+   ```
 
-- **Programming language:** Python
+4. Open **http://127.0.0.1:8000** in your browser.
+5. Select an answer for every question and submit.
 
-Frameworks, database choices, and additional libraries are intentionally not listed until they can be confirmed from the actual source code.
+Stop the server with `Ctrl+C`.
 
-## Core project areas
-
-- Displaying multiple-choice questions
-- Providing an interface for selecting answers
-- Organizing the quiz-taking experience
-
-These describe the project's purpose; exact implemented features should be confirmed against the application source before being presented as completed functionality.
-
-## Repository status
-
-This repository currently contains project documentation. The application source code, dependency list, screenshots, and verified run instructions have not yet been uploaded.
-
-## Suggested repository structure
-
-```text
+## Project structure
+```
 python-mcq-website/
-├── README.md
-├── requirements.txt
-├── app/
-├── static/
-├── templates/
-└── screenshots/
+├── app.py
+├── questions.json
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 ```
 
-The structure above is a suggested organization, not a claim about the current files.
+## Add your own questions
+Edit `questions.json`. Each question has an integer `id`, a `category`, question text, four `options`, a zero-based `answer` index, and an `explanation`.
 
-## Setup
+Example:
+```json
+{
+  "id": 9,
+  "category": "Python",
+  "question": "What is Python?",
+  "options": ["A programming language", "An operating system", "A database", "A browser"],
+  "answer": 0,
+  "explanation": "Python is a general-purpose programming language."
+}
+```
 
-Installation and run commands will be added after the actual source code and dependencies are available.
+## Notes
+This is a clean, working starter implementation created for the public portfolio repository. It is not represented as a copy of any earlier private/unavailable source code or as a deployment of the user's original website.
 
-## Maintainer
-
-**Shivansh Verma** · [GitHub](https://github.com/shivanshpoop) · [LinkedIn](https://www.linkedin.com/in/shivansh-verma-239888350/)
+## License
+MIT
