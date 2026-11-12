@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A clean Python-powered multiple-choice quiz application.">
+  <title>QuizLab — MCQ Practice</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/">Quiz<span>Lab</span></a><span class="tag">PYTHON POWERED</span></header>
+  <main class="shell">
+    <section class="intro"><p class="eyebrow">PRACTICE • LEARN • IMPROVE</p><h1>Test your <span>knowledge.</span></h1><p class="muted">A quick multiple-choice challenge. Choose an answer for each question and submit to see your score.</p></section>
+    <section class="quiz-card" aria-live="polite">
+      <div class="quiz-head"><span id="count">Loading questions…</span><span id="category" class="category"></span></div>
+      <div class="progress"><div id="progress-fill"></div></div>
+      <div id="quiz"><p class="muted">Getting your quiz ready…</p></div>
+      <div class="actions"><button id="submit" disabled>Submit answers <span>→</span></button></div>
+      <div id="result" role="status"></div>
+    </section>
+    <footer>Built with Python's standard library · Demo question set included</footer>
+  </main>
+  <script src="/script.js"></script>
+</body>
+</html>
